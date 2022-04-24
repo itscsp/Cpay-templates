@@ -1,252 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php require_once('topHeader.php') ?>
 
-<!-- Mirrored from www.themeht.com/CPay/ltr/index-7.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 10 Apr 2022 16:03:27 GMT -->
-<head>
-<meta charset="utf-8">
-<meta name="keywords" content="bootstrap 5, premium, multipurpose, sass, scss, saas, Startup, WebApp" />
-<meta name="description" content="HTML5 Template" />
-<meta name="author" content="www.themeht.com" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CPay - The Easiest Way To Manage Personal Finances With CPay</title>
 
-<!-- favicon icon -->
-<link rel="shortcut icon" href="images/favicon.ico" />
-
-<!-- inject css start -->
-
-<!--== bootstrap -->
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-
-<!--== animate -->
-<link href="css/animate.css" rel="stylesheet" type="text/css" />
-
-<!--== fontawesome -->
-<link href="css/fontawesome-all.css" rel="stylesheet" type="text/css" />
-
-<!--== line-awesome -->
-<link href="css/line-awesome.min.css" rel="stylesheet" type="text/css" />
-
-<!--== magnific-popup -->
-<link href="css/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css" />
-
-<!--== owl-carousel -->
-<link href="css/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
-
-<!--== spacing -->
-<link href="css/spacing.css" rel="stylesheet" type="text/css" />
-
-<!--== base -->
-<link href="css/base.css" rel="stylesheet" type="text/css" />
-
-<!--== shortcodes -->
-<link href="css/shortcodes.css" rel="stylesheet" type="text/css" />
-
-<!--== default-theme -->
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-
-<!--== responsive -->
-<link href="css/responsive.css" rel="stylesheet" type="text/css" />
-
-<!--== color-customizer -->
-<link href="css/theme-color/color-7.css" data-style="styles" rel="stylesheet">
-<link href="css/color-customize/color-customizer.css" rel="stylesheet" type="text/css" />
-
-<!-- inject css end -->
-
-</head>
-
-<body>
-
-<!-- page wrapper start -->
-
-<div class="page-wrapper">
-
-<!-- preloader start -->
-
-<div id="ht-preloader">
-  <div class="clear-loader">
-    <div class="loader">
-      <div class="loader-div"><span>CPay</span>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- preloader end -->
 
 
 <!--header start-->
-
-<header id="site-header" class="header header-2">
-  <div id="header-wrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <!-- Navbar -->
-          <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand logo" href="index.html">
-              <h2>C<span class="text-white">Pay</span></h2>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span></span>
-              <span></span>
-              <span></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav mx-auto">
-                <!-- Home -->
-                <li class="nav-item"> <a class="nav-link active" href="#home">Home</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item"> <a class="nav-link" href="#how-it-work">How It Work</a>
-                </li>
-                <li class="nav-item"> <a class="nav-link" href="#testimonial">Testimonial</a>
-                </li>
-                <li class="nav-item"> <a class="nav-link" href="#blog">Blogs</a>
-                </li>
-                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#price" data-toggle="dropdown">Pricing</a>
-                  <!-- <div class="dropdown-menu">
-                    <ul class="list-unstyled">
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      About Us
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="about.html">About Us 1</a>
-                          </li>
-                          <li><a href="about-2.html">About Us 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      Services
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="service.html">Services 1</a>
-                          </li>
-                          <li><a href="service-2.html">Services 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      Team
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="team-1.html">Team 1</a>
-                          </li>
-                          <li><a href="team-2.html">Team 2</a>
-                          </li>
-                          <li><a href="team-single.html">Team Single</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      Portfolio
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="portfolio-grid-2.html">Portfolio Grid 2</a>
-                          </li>
-                          <li><a href="portfolio-grid-3.html">Portfolio Grid 3</a>
-                          </li>
-                          <li><a href="portfolio-fullwidth.html">Portfolio Fullwidth</a>
-                          </li>
-                          <li><a href="portfolio-single.html">Portfolio Single</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      Blog
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="blog-grid-2.html">Blog Grid 2</a>
-                          </li>
-                          <li><a href="blog-grid-3.html">Blog Grid 3</a>
-                          </li>
-                          <li><a href="blog-classic.html">Blog Classic</a>
-                          </li>
-                          <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                          </li>
-                          <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a>
-                          </li>
-                          <li><a href="blog-single.html">Blog Single</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      Element
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="shortcode-accordion.html">Accordion</a>
-                          </li>
-                          <li><a href="shortcode-blog-post.html">Blog Post</a>
-                          </li>
-                          <li><a href="shortcode-counter.html">Counter</a>
-                          </li>
-                          <li><a href="shortcode-feature.html">Feature Box</a>
-                          </li>
-                          <li><a href="shortcode-pricing.html">Pricing Table</a>
-                          </li>
-                          <li><a href="shortcode-team.html">Team</a>
-                          </li>
-                          <li><a href="shortcode-testimonial.html">Testimonial</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li><a href="faq.html">Faq</a>
-                      </li>
-                      <li><a href="pricing.html">Pricing</a>
-                      </li>
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      Utility
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="coming-soon.html">Coming Soon 1</a>
-                          </li>
-                          <li><a href="coming-soon-2.html">Coming Soon 2</a>
-                          </li>
-                          <li><a href="error-404.html">404 Error 1</a>
-                          </li>
-                          <li><a href="error-404-2.html">404 Error 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      Account
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="login.html">Login 1</a>
-                          </li>
-                          <li><a href="login-2.html">Login 2</a>
-                          </li>
-                          <li><a href="register.html">Register</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown dropdown-submenu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                      Contact Us
-                    </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="contact.html">Contact 1</a>
-                          </li>
-                          <li><a href="contact-2.html">Contact 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div> -->
-                </li>
-              </ul>
-            </div>
-            <div class="right-nav align-items-center d-flex justify-content-end">
-              <a class="btn btn-white btn-sm" href="login.html"><span>Login</span></a>
-              <a class="btn btn-white btn-sm" href="register.html"><span>Sign Up</span></a>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-
+<?php require_once('homeHeader.php') ?>
 <!--header end-->
 
 
@@ -330,7 +88,7 @@
                   <svg class="icon-vivus bd-color-1 feather feather-globe" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
                 </div>
                 <div class="featured-title">
-                  <h5>Now in India</h5>
+                  <h5>Now in UAE</h5>
                 </div>
                 <div class="featured-desc">
                   <p>The wise man therefore always holds in these matters to this CPay of selection</p>
@@ -584,12 +342,12 @@
 
 <!--testimonial start-->
 
-<section id="testimonial" class="pb-0">
+<!-- <section id="testimonial" class="pb-0">
   <div class="container">
     <div class="row mt-5">
       <div class="col-md-12">
         <div id="testimonial-1" class="testimonial-carousel testimonial-1 carousel slide" data-ride="carousel" data-interval="2500">
-          <!-- Wrapper for slides -->
+
           <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
               <div class="carousel-inner">
@@ -641,9 +399,9 @@
                     </div>
                   </div>
                 </div>
-                <!-- End Item -->
+
               </div>
-              <!-- End Carousel Inner -->
+
             </div>
           </div>
           <div class="controls">
@@ -666,18 +424,18 @@
             </ul>
           </div>
         </div>
-        <!-- End Carousel -->
+
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <!--testimonial end-->
 
 
 <!--client start-->
 
-<section>
+<!-- <section>
   <div class="owl-carousel" data-items="1" data-md-items="1" data-sm-items="1" data-autoplay="true">
     <div class="item">
       <div class="container">
@@ -786,7 +544,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <!--client end-->
 
@@ -923,185 +681,6 @@
 <!--body content end-->
 
 
-<!--footer start-->
-<div id="waterdrop"></div>
-<footer class="footer theme-bg">
-  <div class="primary-footer">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-4 col-md-6">
-          <div class="footer-logo mb-3">
-            <h2>C<span class="text-white">Pay</span></h2>
-          </div>
-          <p class="mb-0">CPay - Payment Provider Services Office No. 510, 5th Floor, Al Rostamani Group Building, Port Saeed, Deira, Dubai, Post Box 55281 United Arab Emirates</p>
+<?php require_once('footer.php') ?>
 
-        </div>
-        <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
-          <h4 class="mb-4 text-white">Usefull link</h4>
-          <div class="footer-list justify-content-between d-flex">
-          <ul class="list-unstyled w-100">
-            <li><a href="about-us.html">About Us</a>
-            </li>
-            <li><a href="services.html">Service</a>
-            </li>
-            <li><a href="team.html">Team</a>
-            </li>
-            <li><a href="team-single.html">Team Single</a>
-            </li>
-            <li><a href="contact.html">Contact Us</a>
-            </li>
-          </ul>
-          <ul class="list-unstyled w-100">
-            <li><a href="blog-right-sidebar.html">Blog</a>
-            </li>
-            <li><a href="faq.html">Faq</a>
-            </li>
-            <li><a href="error-404.html">Error 404</a>
-            </li>
-            <li><a href="privacy-policy.html">Privacy Policy</a>
-            </li>
-            <li><a href="terms-and-conditions.html">Terms</a>
-            </li>
-          </ul>
-        </div>
-        </div>
-        <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
-          <div class="footer-cntct">
-          <h4 class="mb-4 text-white">Get In Touch</h4>
-          <ul class="media-icon list-unstyled">
-            <li>
-              <p class="mb-0"><i class="la la-map-o"></i>   CPay Payment Provider Services Office No. 510, 5th Floor, Al Rostamani Group Building, Port Saeed, Deira, Dubai, Post Box 55281 United Arab Emirates
-              </p>
-            </li>
-            <li><i class="la la-envelope-o"></i>  <a href="mailto:info@cpaypayments.com"><b>info@cpaypayments.com</b></a>
-            </li>
-            <li><i class="la la-phone"></i>  <a href="tel: +971-445-69396"><b> +971-445-69396</b></a>
-            </li>
-          </ul>
-          <div class="social-icons mt-3">
-            <ul class="list-inline">
-              <li><a href="#"><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li><a href="#"><i class="fab fa-dribbble"></i></a>
-              </li>
-              <li><a href="#"><i class="fab fa-skype"></i></a>
-              </li>
-            </ul>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="secondary-footer mt-5 text-center">
-    <div class="container">
-      <div class="copyright">
-        <div class="row">
-          <div class="col-md-12"> <span>Copyright 2019 CPay Theme by <u><a href="https://www.Jefrs.com" target="_blank">Jefrs.com</a></u> | All Rights Reserved</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<!--footer end-->
-
-
-</div>
-
-<!-- page wrapper end -->
-
-
-<!--color-customizer start-->
-
-<div class="color-customizer closed">
-  <div class="color-button">
-    <a class="opener" href="#"> <i class="fas fa-spinner fa-spin"></i>
-    </a>
-  </div>
-  <div class="clearfix color-chooser text-center">
-    <h4 class="text-theme font-w-5 mb-4">CPay With <span class="text-black font-w-5">Awesome Colors</span></h4>
-    <ul class="colorChange clearfix">
-      <li class="theme-default" title="theme-default" data-style="color-1"></li>
-      <li class="theme-2" title="theme-2" data-style="color-2"></li>
-      <li class="theme-3" title="theme-3" data-style="color-3"></li>
-      <li class="theme-4" title="theme-4" data-style="color-4"></li>
-      <li class="theme-5" title="theme-5" data-style="color-5"></li>
-      <li class="theme-6" title="theme-6" data-style="color-6"></li>
-      <li class="theme-7 selected" title="theme-7" data-style="color-7"></li>
-      <li class="theme-8" title="theme-8" data-style="color-8"></li>
-      <li class="theme-9" title="theme-9" data-style="color-9"></li>
-      <li class="theme-10" title="theme-10" data-style="color-10"></li>
-    </ul>
-    <div class="text-center mt-4">
-      <a class="btn btn-theme btn-circle" href="#">
-       <span>Purchase Now</span>
-        </a>
-    </div>
-  </div>
-</div>
-
-<!--color-customizer end-->
-
-
-<!--back-to-top start-->
-
-<div class="scroll-top"><a class="smoothscroll" href="#top"><i class="la la-hand-pointer-o"></i></a></div>
-
-<!--back-to-top end-->
-
-
-<!-- inject js start -->
-
-<!--== jquery -->
-<script src="js/common-theme.js"></script>
-
-<!--== nice-select -->
-<script src="js/jquery.nice-select.js"></script>
-
-<!--== owl-carousel -->
-<script src="js/owl-carousel/owl.carousel.min.js"></script>
-
-<!--== magnific-popup -->
-<script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-<!--== counter -->
-<script src="js/counter/counter.js"></script>
-
-<!--== isotope -->
-<script src="js/isotope/isotope.pkgd.min.js"></script>
-
-<!--== particles -->
-<script src="js/particles.min.js"></script>
-
-<!--== vivus -->
-<script src="js/vivus/pathformer.js"></script>
-<script src="js/vivus/vivus.js"></script>
-
-<!--== raindrops -->
-<script src="js/raindrops/jquery-ui.js"></script>
-<script src="js/raindrops/raindrops.js"></script>
-
-<!--== countdown -->
-<script src="js/countdown/jquery.countdown.min.js"></script>
-
-<!--== contact-form -->
-<script src="js/contact-form/contact-form.js"></script>
-
-<!--== wow -->
-<script src="js/wow.min.js"></script>
-
-<!--== color-customize -->
-<script src="js/color-customize/color-customizer.js"></script>
-
-<!--== theme-script -->
-<script src="js/theme-script.js"></script>
-
-<!-- inject js end -->
-
-</body>
-
-
-<!-- Mirrored from www.themeht.com/CPay/ltr/index-7.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 10 Apr 2022 16:04:50 GMT -->
-</html>
+<?php require_once('footerbottom.php') ?>
